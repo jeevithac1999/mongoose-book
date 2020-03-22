@@ -7,6 +7,7 @@ http
     res.end(); //end the response
   })
   .listen(8080); //the server object listens on port 8080
+require("./queries/authorQueries");
 /**
  * Book
  /* 
